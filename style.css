@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -30,12 +29,37 @@ body {
   cursor: pointer;
 }
 
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+#search #sorting {
+  width: 10rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#search input {
+  width: 14rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 #container {
   margin-top: 2rem;
 }
 
 #container>div {
   background-color: rgba(25, 88, 182, 0.452);
+  width: 80%;
+  border: 2px solid black;
+  margin-left: 10%;
   margin-top: 1rem;
   line-height: 2rem;
   text-align: center;
