@@ -148,7 +148,7 @@ Select.addEventListener('change', function (ele) {
     renderSort();
   }
 })
-dynamicList.addEventListener('submit', createListElement);
+// dynamicList.addEventListener('submit', createListElement);
 
 
 
