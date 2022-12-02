@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.425);
+}
+
+#dynamic_List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#dynamic_List input {
+  width: 15rem;
+  margin-top: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#dynamic_List button {
+  margin-top: 1rem;
+  width: 4rem;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#container {
+  margin-top: 2rem;
+}
+
+#container>div {
+  background-color: rgba(25, 88, 182, 0.452);
+  margin-top: 1rem;
+  line-height: 2rem;
+  text-align: center;
+}
