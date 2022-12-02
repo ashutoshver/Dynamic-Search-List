@@ -53,14 +53,16 @@ body {
 
 #container {
   margin-top: 2rem;
+  background-color: rgb(0, 217, 255);
 }
 
 #container>div {
-  background-color: rgba(25, 88, 182, 0.452);
+  background-color: darkslategray;
   width: 80%;
   border: 2px solid black;
   margin-left: 10%;
   margin-top: 1rem;
   line-height: 2rem;
   text-align: center;
+  color: white;
 }

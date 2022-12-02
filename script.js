@@ -75,6 +75,7 @@ const displayUser = () => {
     <h3><span>Pan Number:</span>${pan}</h3>
     <p><span>Age:</span>${age}</p>
     <p><span>Highest Qualification:</span>${qualification}</p>`;
+
   })
 }
 
