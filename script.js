@@ -20,7 +20,6 @@ const addList = (name, pan, age, qualification) => {
   });
 
   localStorage.setItem("list", JSON.stringify(list));
-
   return { name, pan, age, qualification };
 }
 //create Element
@@ -149,7 +148,7 @@ Select.addEventListener('change', function (ele) {
     renderSort();
   }
 })
-// dynamicList.addEventListener('submit', createListElement);
+
 
 
 
